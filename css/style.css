@@ -1001,6 +1001,7 @@ form label {
 .fh5co-section {
   padding: 7em 0;
   clear: both;
+    position: relative;
 }
 @media screen and (max-width: 768px) {
   #fh5co-testimonial,
@@ -1013,6 +1014,8 @@ form label {
   #fh5co-gallery,
   .fh5co-section {
     padding: 3em 0;
+/*      position: relative;
+top: 600px;*/
   }
 }
 
@@ -1849,6 +1852,11 @@ li.one-third {
 li.one-third:hover {
   filter: none;
   -webkit-filter: grayscale(0%);
+}
+
+#poopie {
+  position: relative;
+top: 600px;
 }
 
 /*# sourceMappingURL=style.css.map */
